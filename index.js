@@ -19,6 +19,8 @@ var server = http.createServer(function (req, res) {
     if (err) {
       handleError(err, res);
     } else {
+      var mime_type = mime.getType(filePath);
+      res.setHeader("Content-Type", mime_type);
       res.end(data);
     }
   });
