@@ -1,6 +1,8 @@
 var http = require("http");
 var fs = require("fs");
 var extract = require("./extract");
+var mime = require("mime");
+
 
 var handleError = function (err, res) {
   fs.readFile("app/error.html", function (err, data) {

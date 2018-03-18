@@ -20,5 +20,8 @@
   "homepage": "https://github.com/DonVu/chattrbox#readme",
   "devDependencies": {
     "nodemon": "^1.17.2"
+  },
+  "dependencies": {
+    "mime": "^2.2.0"
   }
 }
