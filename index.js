@@ -2,6 +2,7 @@ var http = require("http");
 var fs = require("fs");
 var extract = require("./extract");
 var mime = require("mime");
+var wss = require("./websockets-server.js");
 
 
 var handleError = function (err, res) {
