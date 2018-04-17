@@ -1,0 +1,1 @@
+console.error("SyntaxError: /home/me/Desktop/front_end/chattrbox-homework7/app/scripts/src/dom.js: Unexpected token (9:7) while parsing file: /home/me/Desktop/front_end/chattrbox-homework7/app/scripts/src/dom.js");
